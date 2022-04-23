@@ -2,6 +2,8 @@
   "name": "landing-page",
   "version": "0.1.0",
   "private": true,
+  "engines": {"node":"16.13.1",
+  "npm":"8.x"},
   "dependencies": {
     "@chakra-ui/icons": "^1.1.1",
     "@chakra-ui/react": "^1.7.3",
