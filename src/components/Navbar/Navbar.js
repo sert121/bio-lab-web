@@ -78,8 +78,8 @@ function Navbar() {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'> 
-                        <NavIcon />
-                            BioLab
+                    
+                            <div style={{fontSize:"0.7em",fontFamily:"'DM Sans',sans-serif"}}>Mechano Biochemistry Lab</div>
                     </NavLogo>
                     <HamburgerIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
@@ -87,33 +87,33 @@ function Navbar() {
                     <NavMenu onClick={handleClick} click={click} >
                         <NavItem onClick={handleHomeClick} homeClick={homeClick}>
                             <NavLinks to='/' onClick={closeMobileMenu}>
-                                Home
+                            <div style={{fontFamily:"'DM Sans',sans-serif"}}>Home</div>
                             </NavLinks>
                         </NavItem>
                     
                     
                         <NavItem onClick={handleServicesClick} servicesClick={servicesClick}>
                             <NavLinks to='/publications' onClick={closeMobileMenu}>
-                                Publications
+                            <div style={{fontFamily:"'DM Sans',sans-serif"}}>Publications</div>
                             </NavLinks>
                         </NavItem>
                     
                     
                         <NavItem onClick={handleProductsClick} productsClick={productsClick}>
                             <NavLinks to='/scientists' onClick={closeMobileMenu}>
-                                Scientists
+                            <div style={{fontFamily:"'DM Sans',sans-serif"}}>Scientists</div>
                             </NavLinks>
                         </NavItem>
                         
                         <NavItem onClick={handleGalleryClick} galleryClick={galleryClick}>
                             <NavLinks to='/gallery' onClick={closeMobileMenu}>
-                                Gallery
+                            <div style={{fontFamily:"'DM Sans',sans-serif"}}>Gallery</div>
                             </NavLinks>
                         </NavItem>
 
                         <NavItem onClick={handleContactClick} galleryClick={contactClick}>
                             <NavLinks to='/contact' onClick={closeMobileMenu}>
-                                Contact Us
+                            <div style={{fontFamily:"'DM Sans',sans-serif"}}>Contact Us</div>
                             </NavLinks>
                         </NavItem>
 

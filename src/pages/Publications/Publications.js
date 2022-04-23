@@ -8,7 +8,7 @@ import "./Publications.css"
 function Publications() {
   return (
     <>
-    <div id="publications_header"><h2 > Publications </h2></div>
+    <div id="publications_header" style={{fontFamily:"'DM Sans',sans-serif"}}><h2 style={{fontFamily:"'DM Sans',sans-serif"}} > Publications </h2></div>
     <ImageList/>
     <Citation/>
     </>
