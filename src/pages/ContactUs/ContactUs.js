@@ -7,10 +7,8 @@ import useScript from '../../components/hooks/useScript';
 import SimpleMap from '../../components/Map/Map';
 // import MapmyIndia, {MapMarker} from 'react-mapmyindia';
 
-import ReactMapboxGl from 'react-mapbox-gl';
 import Mashoka from './../../images/map-ashoka.png';
-import mapboxgl from 'mapbox-gl';
-import Mapper from './Mapper';
+
 
 const ContactUs = () => {
 //   useScript('https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.10.0/build/ol.js');
