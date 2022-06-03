@@ -1,0 +1,73 @@
+
+
+#logo_home{
+    font-size:0.2em;
+    font-family:'DM Sans',sans-serif;
+}
+
+
+/* img{
+    height:14%;
+    width:14%;
+} */
+
+
+@media only screen and (max-width: 600px) {
+    #logo_img{
+        height:13%;
+        width:13%;
+    }
+        
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #logo_img{
+        height:13%;
+        width:13%;
+    }
+    
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #logo_img{
+        height:13%;
+        width:13%;
+    }
+    
+    
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #logo_img{
+        height:13%;
+        width:13%;
+    }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #logo_img{
+        height:13%;
+        width:13%;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+

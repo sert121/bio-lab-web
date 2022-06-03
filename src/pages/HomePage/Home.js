@@ -2,6 +2,8 @@ import React from 'react';
 import { InfoSection, Pricing } from '../../components';
 import { homeObjOne, homeObjThree, homeObjTwo, homeObjFour} from './Data';
 import backgroundH from './../../images/tweezerG.gif';
+import "./Home.css";
+
 
 const Home = () => {
     return (
@@ -18,8 +20,8 @@ const Home = () => {
       }}
     >
                 <div className='header_homepage'>
-                    <h4 style={{color:"white",fontSize:"4.5em",fontFamily:"'DM Sans',sans-serif"}}>
-                        Mechano Biochemistry Lab                    
+                    <h4 id='homepage_title'>
+                        Structural Mechanobiochemistry Lab                    
                     </h4>
                     
                 </div>

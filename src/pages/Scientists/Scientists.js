@@ -9,7 +9,8 @@ import souradeep from './../../images/Souradeep.jpg';
 import soham from './../../images/SohamChakr.jpg';
 import profSub from './../../images/Shubhashis.png';
 import deep from './../../images/DeepChauduri.jpg';
-
+import debojyoti from './../../images/Debojyoti.jpg';
+import madhu from './../../images/madhu1.jpg';
 
 function Scientists() {
   return (
@@ -23,19 +24,12 @@ function Scientists() {
               </div>
                 <div className="scientist_bio">
                   <div className="scientist_bio_row">Shubhasis Haldar</div>
-                  <div className="scientist_bio_row_details">Assistant Professor of Biology <br></br>Ashoka University</div>
-                  <div className="scientist_bio_row_details">Postdoc from Max Planck Institute, Germany and Columbia University, USA</div>
-                </div>  
-          </div>
+                  <div className="scientist_bio_row_details ">Principal Investigator </div>
+                    <div className="scientist_bio_row_details ">Postdoc Max Planck Institute & Columbia University 
+                    </div>
+                    <div className="scientist_bio_row_unc">I am interested in developing single molecule technologies to understand complex biological phenomenon 
+                    </div>
 
-          <div className="s_column">
-              <div className="scientist_img">
-                <img style={{height:"290px",width:'290px'}} src={souradeep} />
-              </div>
-                <div className="scientist_bio">
-                  <div className="scientist_bio_row">Souradeep Banerjee</div>
-                  <div className="scientist_bio_row_details">PhD, Biology</div>
-                  <div className="scientist_bio_row_details">Ashoka University</div>
                 </div>  
           </div>
 
@@ -46,7 +40,30 @@ function Scientists() {
                 <div className="scientist_bio">
                   <div className="scientist_bio_row">Soham Chakraborty</div>
                   <div className="scientist_bio_row_details">PhD, Biology</div>
-                  <div className="scientist_bio_row_details">Ashoka University</div>
+                  <div className="scientist_bio_row_unc "> Soham is interested in understanding the talin mechanosensitivity and its regulation under different cellular processes</div>
+                </div>  
+          </div>
+
+          <div className="s_column">
+              <div className="scientist_img">
+                <img style={{height:"290px",width:'290px'}} src={souradeep} />
+              </div>
+                <div className="scientist_bio">
+                  <div className="scientist_bio_row">Souradeep Banerjee</div>
+                  <div className="scientist_bio_row_details">PhD, Biology</div>
+                  <div className="scientist_bio_row_unc scientist_bio_row_details">Souradeep tries to understand the maintenance of structural integrity in mechanosensitive proteins</div>
+                </div>  
+          </div>
+
+
+          <div className="s_column">
+              <div className="scientist_img">
+                <img style={{height:"290px",width:'290px'}} src={madhu} />
+              </div>
+                <div className="scientist_bio">
+                  <div className="scientist_bio_row">Madhu Bhatt</div>
+                  <div className="scientist_bio_row_details">Junior Research Fellow</div>
+                  <div className="scientist_bio_row_unc ">Madhu aims to understand the chain dynamics of proteins and its modulation via chaperone interactions</div>
                 </div>  
           </div>
 
@@ -56,10 +73,26 @@ function Scientists() {
               </div>
                 <div className="scientist_bio">
                   <div className="scientist_bio_row">Deep Chauduri</div>
-                  <div className="scientist_bio_row_details">PhD, Biology</div>
-                  <div className="scientist_bio_row_details">Ashoka University</div>
+                  <div className="scientist_bio_row_details">PhD, Chemistry</div>
+                  <div className="scientist_bio_row_details">Junior Research Fellow</div>
+                  <div className="scientist_bio_row_unc ">Deep aims to decipher the mechanical activity of chaperones under single-molecule resolution</div>
                 </div>  
           </div>
+
+          <div className="s_column">
+              <div className="scientist_img">
+                <img style={{height:"290px",width:'290px'}} src={debojyoti} />
+              </div>
+                <div className="scientist_bio">
+                  <div className="scientist_bio_row">Debojyoti</div>
+                  <div className="scientist_bio_row_details">PhD, Biology</div>
+                  <div className="scientist_bio_row_details">Junior Research Fellow</div>
+                  <div className="scientist_bio_row_unc ">Debojyoti is interested in understanding the role of mechanochemical signaling in neurodegeneration </div>
+
+                </div>  
+          </div>
+
+
 {/* 
           <div className="s_column">
               <div className="scientist_img">

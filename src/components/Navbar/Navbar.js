@@ -4,6 +4,8 @@ import { FaTimes, FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib'
 import { Button } from '../../globalStyles';
 
+import "./Navbar.css";
+import Logo from "../../images/Logo2.png";
 
 function Navbar() {
 
@@ -79,7 +81,7 @@ function Navbar() {
                 <NavbarContainer>
                     <NavLogo to='/'> 
                     
-                            <div style={{fontSize:"0.7em",fontFamily:"'DM Sans',sans-serif"}}>Mechano Biochemistry Lab</div>
+                            <div id="logo_home">< img id="logo_img" src={Logo}></img></div>
                     </NavLogo>
                     <HamburgerIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
@@ -105,6 +107,19 @@ function Navbar() {
                             </NavLinks>
                         </NavItem>
                         
+                        <NavItem onClick={handleProductsClick} productsClick={productsClick}>
+                            <NavLinks to='/research' onClick={closeMobileMenu}>
+                            <div style={{fontFamily:"'DM Sans',sans-serif"}}>Research</div>
+                            </NavLinks>
+                        </NavItem>
+
+
+                        <NavItem onClick={handleProductsClick} productsClick={productsClick}>
+                            <NavLinks to='/labnews' onClick={closeMobileMenu}>
+                            <div style={{fontFamily:"'DM Sans',sans-serif"}}>News</div>
+                            </NavLinks>
+                        </NavItem>
+
                         <NavItem onClick={handleGalleryClick} galleryClick={galleryClick}>
                             <NavLinks to='/gallery' onClick={closeMobileMenu}>
                             <div style={{fontFamily:"'DM Sans',sans-serif"}}>Gallery</div>
@@ -113,7 +128,7 @@ function Navbar() {
 
                         <NavItem onClick={handleContactClick} galleryClick={contactClick}>
                             <NavLinks to='/contact' onClick={closeMobileMenu}>
-                            <div style={{fontFamily:"'DM Sans',sans-serif"}}>Contact Us</div>
+                            <div style={{fontFamily:"'DM Sans',sans-serif"}}>ContactUs</div>
                             </NavLinks>
                         </NavItem>
 

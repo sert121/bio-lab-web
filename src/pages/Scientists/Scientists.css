@@ -4,45 +4,63 @@
 .s_row {
   display: flex;
   margin:5% 8%;
-  margin-top: -1%;
+  margin-top: 1%;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 4px 4px 4px 4px;
   justify-content: space-evenly;
   /* background-color: aqua; */
 }
 
 /* Create four equal columns that sits next to each other */
 .s_column {
-  flex: 22%;
-  max-width: 25%;
+  flex: 25%;
+  max-width: 33%;
   padding: 0px 10px;
   border: solid;
   border-style: hidden;
   border-radius: 11px;
-  /* background-color: grey; */
+  /* background-color: darkcyan; */
   margin-left:1,5%;
-  margin-right: 1.5%; 
+  margin-right: 1.5%;
+  margin-top: 1%;
+  margin-bottom: 1%; 
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: space-between; */
+
 }
 
 .scientist_img{
-  width: 100%;
+  /* width: 100%; */
 }
 .s_column img {
-  /* margin-top: 8px; */
-  vertical-align: middle;
+  margin-top: 8px;
+  /* vertical-align: middle; */
   border: solid;
   border-style: hidden;
   clip-path: circle();
-    margin-top: 8px;
+    /* margin-top: 8px; */
   vertical-align: middle;
   margin-bottom: 50px;
-  width: 100%;
+  /* width: 100%; */
 }
+.scientist_bio_row_unc{
+  /* display:none; */
+  font-weight: 500;
+  flex:80%;
+text-align: center;
+font-family: "DM Sans";
+  word-wrap: break-word;
+}
+
+
 .scientist_bio{
   /* margin-top:200px; */
-display: flex;
+/* display: flex; */
 
-flex-direction: column;
+/* flex-direction: column; */
 /* background-color: green; */
 }
 .scientist_bio_row{
@@ -60,6 +78,7 @@ font-family: "DM Sans";
   word-wrap: break-word;
 
 }
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 

@@ -34,22 +34,23 @@ export default function imageList() {
             <img src={NatureChem}/>
           </div>
 
-          <div className="column">
+          {/* <div className="column">
             <img src={AnnualRevBio}/>
-          </div>
+          </div> */}
           <div className="column">
             <img src={TrendsBioChemical}/>
           </div>
           <div className="column">
             <img src={BioChem58}/>
           </div>
+
           <div className="column">
             <img src={CellReports} />
           </div>
 
-          <div className="column">
+          {/* <div className="column">
             <img src={Biorrxiv} />
-          </div>
+          </div> */}
 
           <div className="column">
             <img src={AngewandteChemie} />
@@ -69,13 +70,13 @@ export default function imageList() {
             <img src={Langmuir} />
           </div>
 
-          <div className="column">
+          {/* <div className="column">
             <img src={JPhysChem} />
-          </div>
+          </div> */}
           
-          <div className="column">
+          {/* <div className="column">
             <img src={PlosOne} />
-          </div>
+          </div> */}
 
 
       </div>

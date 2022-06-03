@@ -1,0 +1,59 @@
+#homepage_title{
+    font-size: 1.5em;
+    color:white;
+    border-style: none;
+    font-family: "DM Sans",sans-serif;
+}
+
+.header_homepage{
+    background-color: #101522;
+    border-radius: 15px !important;
+    padding:2vh;
+    position: absolute;  
+    top: 15vh;
+    
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #homepage_title{
+        font-size: 2em;
+        word-wrap: break-word;
+        padding: 15vh;
+        color: white;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #homepage_title{
+        font-size: 2em;
+        word-wrap: break-word;
+
+}}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #homepage_title{
+        font-size: 2.2em;
+    
+}}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    #homepage_title{
+
+    }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    #homepage_title{
+
+    }
+
+
+}
