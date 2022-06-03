@@ -26,9 +26,7 @@ import "./LabNews.css";
 import SimpleImageSlider from "react-simple-image-slider";
 import CampusPhoto from './../images/campus photo.jpeg';
 import Slideshow  from './Slideshow';
-
-
-
+import NewsTitle from './NewsTitle';
 
 function LabNews() {
     const [sliderOptions, setSliderOptions] = React.useState({
@@ -98,6 +96,9 @@ function LabNews() {
         textDecoration:"none"
       }));
 
+
+      
+
   return (
     <React.Fragment>
                     {/* <div>
@@ -144,14 +145,20 @@ function LabNews() {
                     </div> */}
 
                     <Stack spacing={2} pl="20%" pb={2} width="80%">
-                        <a style={{textDecoration:"none"}}  href="http://bweducation.businessworld.in/article/India-s-First-Covalent-Magnetic-Tweezer-At-Ashoka-University/30-1" target={"_blank"}><Item className="link_pub"><Stack  direction="row" > <div style={{padding:"8px",fontSize:"1.4em",fontFamily:"DM Sans"}}>  http://bweducation.businessworld.in/article/India-s-First-Covalent-Magnetic-Tweezer-At-Ashoka-University/30-1</div> </Stack>  </Item>
-                        </a>
-                        <a style={{textDecoration:"none"}} className="link_pub" href="https://nrinews24x7.com/indias-first-covalent-magnetic-tweezer-at-ashoka-university/" target={"_blank"}>
-                        <Item className="link_pub"><Stack direction="row" >  <div   style={{padding:"8px",fontSize:"1.4em",fontFamily:"DM Sans"}}>https://nrinews24x7.com/indias-first-covalent-magnetic-tweezer-at-ashoka-university/</div> </Stack> </Item >
-                        </a>
-                        <a style={{textDecoration:"none"}} className="link_pub" href="https://www.telegraphindia.com/science-tech/mother-molecule-187251" target={"_blank"}>
-                        <Item className="link_pub"><Stack direction="row">  <div style={{padding:"8px",fontSize:"1.4em",fontFamily:"DM Sans"}}> https://www.telegraphindia.com/science-tech/mother-molecule-187251</div>  </Stack> </Item>
-                        </a>
+  
+                      <NewsTitle text='Our article is published in Nanoscale, April 2022'></NewsTitle>
+                      <NewsTitle text='Our article is accepted in Communications Biology, April 2022'></NewsTitle>
+                      <NewsTitle text='Congratulations to Debojyoti for securing 2nd rank in GATE life science 2022. '></NewsTitle>
+                      <NewsTitle text='Debojyoti is selected as a DST-Inspire fellow, 2022. Congratulations!'></NewsTitle>
+                      <NewsTitle text='Welcome Deep as a newly joined graduate student in the lab, 2021'></NewsTitle>
+                      <NewsTitle text='Welcome Debojyoti as a newly joined graduate student in the lab, 2021.'></NewsTitle>
+                      <NewsTitle text='Work on the mechanical activity of DsbA is accepted in Chemical Science, August 2021. '></NewsTitle>
+                      <NewsTitle text='Madhu joins the lab as project-JRF. Welcome, Madhu!'></NewsTitle>
+                      <NewsTitle text='Review article on cutting-edge single-molecule technologies is published in Annual Review of Biophysics, 2021.'></NewsTitle>
+                      <NewsTitle text='A review article on single-molecule techniques is published in Trends in Biochemical Science, 2020'></NewsTitle>
+                      <NewsTitle text='Deep joins the lab as a project associate. Welcome Deep to the lab!'></NewsTitle>
+                      <NewsTitle text='A review on talin-integrin mechanosensitivity is accepted in Biochemistry, 2019.'></NewsTitle>
+                   
                     </Stack>
 
 

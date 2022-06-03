@@ -33,7 +33,7 @@ const ContactUs = () => {
                 <div style={{flex:"50%",fontSize:"1em",fontFamily:"'DM Sans',sans-serif",padding:"1em"}} >
                      
                 If you are interested in a PhD or Postdoctoral position: <br></br>
-                You can have a Biology/Physics/Chemistry/Computation background, but you should be interested to learn. Please check our previous work and the related literature. Write in your own words what you would like to do with us and send it to the following email address.
+                You can have a Biology/Physics/Chemistry/Computation Biology background, but you should be interested to learn. Please check our previous work and the related literature. Write in your own words what you would like to do with us and send it to the following email address.
                  <br>
                  </br>
                 <b><a href='mailto:shubhasis.haldar@ashoka.edu.in'>shubhasis.haldar@ashoka.edu.in</a></b>
