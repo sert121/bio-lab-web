@@ -1,4 +1,4 @@
-#  Landing Page with React
+#  Structural Mechanobiology lab
 
 # Tech Stack
 * React
