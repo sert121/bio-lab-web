@@ -11,6 +11,17 @@
   /* background-color: aqua; */
 }
 
+#former_members{
+  font-family: "DM Sans";
+  padding: 0.8em;
+}
+
+.former_mem{
+  font-family: "DM Sans";
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
 /* Create four equal columns that sits next to each other */
 .s_column {
   flex: 25%;

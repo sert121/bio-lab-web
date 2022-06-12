@@ -91,6 +91,16 @@ function Scientists() {
 
                 </div>  
           </div>
+          <div className='s_row'>
+            <div style={{marginTop:"5px",display:"flex",flexDirection:"column",alignItems:'center'}}>
+              <h1 id='former_members'>Former Members</h1>
+              <div className='former_mem' >Divya</div>
+            <div className='former_mem' >Akanksha</div>
+            <div className='former_mem' >Tumbala</div>
+            <div className='former_mem'>Gutti</div>
+            </div>
+         
+          </div>
 
 
 {/* 

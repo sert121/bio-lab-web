@@ -26,6 +26,15 @@
   background-color: rgba(217, 231, 226, 0.384);
 }
 
+#other_publications{
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  font-family: 'Spectral',serif;
+  background-color: transparent;
+  font-family: 'DM Sans',sans-serif;
+}
+
 #title{
   font-family: 'Spectral',serif;
   font-weight: 500;

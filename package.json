@@ -7,8 +7,6 @@
     "npm": "8.x"
   },
   "dependencies": {
-    "@chakra-ui/icons": "^1.1.1",
-    "@chakra-ui/react": "^1.7.3",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.8.0",

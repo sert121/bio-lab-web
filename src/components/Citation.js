@@ -160,18 +160,30 @@ journal:" J. Phys. Chem. C 115, ",
 year:"24037–24044, 2011"}
 
 ]
+
+  const itemData2 = itemData.slice(0,3);
+  const itemData3 = itemData.slice(3,itemData.length);
   return (
     <div className="flex-container">
-      { itemData.map((item,index)=>
+      { itemData2.map((item,index)=>
       <div className="cite-row">
       {index+1}. <span id="title">   {item.title}, {item.authors}.</span> <span id="journal">{item.journal}</span>, <span id="year">{item.year}</span>  
       </div>
-      
-      
       )
-
+      }
+      {
+      <div className="cite-row" id="other_publications" style={{align:"center",justify:"center"}}>
+        Other Publications    
+      </div>
       }
 
+      { itemData3.slice(3).map((item,index)=>
+      <div className="cite-row">
+      {index+4}. <span id="title">  {item.title}, {item.authors}.</span> <span id="journal">{item.journal}</span>, <span id="year">{item.year}</span>  
+      </div>
+      )
+      }
+      
 
                     
       
